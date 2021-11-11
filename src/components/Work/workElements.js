@@ -11,6 +11,7 @@ margin-left:20px;`
 
 export const ProjectCard = styled.section`
 background-image: url(${({ background }) => background});
+/* calling image prop passed in through index.js */
 background-size: cover;
 width: 300px;
 height: 300px;
@@ -36,22 +37,23 @@ justify-content: space-between;
 }
 `
 export const ProjectHeading = styled.h3`
-color:#73fc03;
+color:#c02222;
 `
 export const ProjectText = styled.p`
-color:#03dbfc;
+color:#22c0c0;
 `
 
 export const ProjectLink = styled.a`
-color:#c2fc03;
-background-color: #a5c9c9;
+color:#22c0c0;
+background-color: #050202;
 width: 50px;
 padding:5px;
+text-decoration:none;
 margin-bottom:5px; 
 
 &:hover{
-    background-color: #bdbb99;
-    color:#542a2a;
+    background-color: #f2fdfd;
+    color:#c02222;
     transition: 0.5 ease-in-out;
     opacity:90%;
     cursor:pointer;
