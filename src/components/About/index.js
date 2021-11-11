@@ -2,7 +2,7 @@ import React from 'react'
 import { Sectioncontainer, SectionContent, SectionTitle, SectionText } from '../sharedElements'
 const About = () => {
     return (
-        <Sectioncontainer>
+        <Sectioncontainer id="About">
             <SectionTitle>About Me</SectionTitle>
             <SectionContent><SectionText>
                 Versatile Technologist with over 10 years of experience applying extensive knowledge in strategic planning, project management, and the technical skills to improve business operation performance while maintaining a proven track record of managing multiple technology implementation projects, collaborating with customer end users, technical resources, internal business and technical teams. Recognized for exceptional troubleshooting expertise involving complex, distributed environments, examining both the application and the infrastructure of a system for rapid resolution.<br /><br />
