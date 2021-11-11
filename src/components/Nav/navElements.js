@@ -1,10 +1,15 @@
+
 import { Link } from 'react-scroll'
+//  Link needs to be imported for styled-components to work with it
 import styled from 'styled-components'
 import img from '../../assets/images/nyc_skyline.JPG'
+
 export const NavContainer = styled.nav`
 margin-top: 0;
 width: 100%;
 `
+// this is how styled components requires exports of html elements
+
 export const NavTop = styled.section`
 background-color:#1d2022;
 display: flex;
@@ -30,6 +35,17 @@ gap:10px;
 padding-bottom: 10px;;
 `
 export const NavLink = styled(Link)`
+color: #44a8b8;
+text-decoration: underline;
+cursor:pointer;
+
+&:hover{
+    color:#ff4040;
+    transition: 0.2 ease-in-out;
+}
+
+`
+export const NavLinka = styled.a`
 color: #44a8b8;
 text-decoration: underline;
 cursor:pointer;
