@@ -4,17 +4,17 @@ import { ProjectHeading, ProjectText, ProjectLink, ProjectCard, ProjectDesc, Pro
 import vegitaite from '../../assets/images/vegitate.png'
 import horiseon from '../../assets/images/horiseon.png'
 import PGenerator from '../../assets/images/PasswordGenerator.png'
-import placeholder from '../../assets/images/placeholder.png'
+import Pawtime from '../../assets/images/pawTime.PNG'
 import weather from '../../assets/images/WeatherDash.png'
+import team from '../../assets/images/Team.png'
 // importing images 
-const Work = () => {
-
+const Work = (props) => {
     return (
         <Sectioncontainer id="Work">
-            <SectionTitle>Work</SectionTitle>
+            <SectionTitle >Projects</SectionTitle>
             <SectionContent>
                 <ProjectsContainer>
-                    <ProjectCard background={vegitaite}>
+                    <ProjectCard background={vegitaite} role="img" aria-label="[Vegitate project screenshot]">
                         {/* passing in img as prop to component */}
                         <ProjectDesc >
 
@@ -24,7 +24,7 @@ const Work = () => {
 
                         </ProjectDesc>
                     </ProjectCard>
-                    <ProjectCard background={horiseon}>
+                    <ProjectCard background={horiseon} role="img" aria-label="[horiseon project screenshot]">
                         <ProjectDesc >
                             <ProjectHeading>Horiseon </ProjectHeading>
                             <ProjectText>Horiseon, a company specializing in online marketing would like their website to be optimized, and for some of the code to be fixed.</ProjectText>
@@ -32,7 +32,7 @@ const Work = () => {
 
                         </ProjectDesc>
                     </ProjectCard>
-                    <ProjectCard background={PGenerator}>
+                    <ProjectCard background={PGenerator} role="img" aria-label="[PGenerator project screenshot]">
                         <ProjectDesc >
                             <ProjectHeading>Secure Password Generator</ProjectHeading>
                             <ProjectText>A password is randomly generated based on set criteria that the user provides when prompted via js alerts/prompts.</ProjectText>
@@ -40,22 +40,34 @@ const Work = () => {
 
                         </ProjectDesc>
                     </ProjectCard>
-                    <ProjectCard background={weather}>
+                    <ProjectCard background={weather} role="img" aria-label="[weather project screenshot]">
                         <ProjectDesc >
                             <ProjectHeading>Weather-Dashboard</ProjectHeading>
                             <ProjectText>Our assignment was to create a weather dashboard that leverage a 3rd party server api to propigate our web application with relevant data.</ProjectText>
-                            <ProjectLink href="" target="_blank">Go to project</ProjectLink>
+                            <ProjectLink href="https://github.com/MichaelAdamGroberman/Weather-Dashbaord" target="_blank">Go to project</ProjectLink>
 
                         </ProjectDesc>
                     </ProjectCard>
-                    <ProjectCard background={placeholder}>
+                    <ProjectCard background={Pawtime} role="img" aria-label="[PawTime project screenshot]">
                         <ProjectDesc >
-                            <ProjectHeading>Placeholder</ProjectHeading>
-                            <ProjectText>Placeholder</ProjectText>
-                            <ProjectLink href="" target="_blank">Go to project</ProjectLink>
+                            <ProjectHeading>PawTime</ProjectHeading>
+                            <ProjectText>A web application that stores a personal profile for your pet(s). Each pet has their vaccinations, issues, appointments, etc logged.
+
+                            </ProjectText>
+                            <ProjectLink href="https://github.com/MichaelAdamGroberman/Team-Profile-Generator" target="_blank">Go to project</ProjectLink>
 
                         </ProjectDesc>
                     </ProjectCard>
+                    <ProjectCard background={team} role="img" aria-label="[Team-Profile-Generator project screenshot]">
+                        <ProjectDesc >
+                            <ProjectHeading>Team-Profile-Generator</ProjectHeading>
+                            <ProjectText>This is a Node.js command-line application that takes in information about employees on a software engineering team via inquirer and CLI, then generates an HTML webpage that displays summaries for each person.</ProjectText>
+                            <ProjectLink href="https://github.com/MichaelAdamGroberman/Team-Profile-Generator" target="_blank">Go to project</ProjectLink>
+
+                        </ProjectDesc>
+                    </ProjectCard>
+
+
                 </ProjectsContainer>
             </SectionContent>
         </Sectioncontainer>

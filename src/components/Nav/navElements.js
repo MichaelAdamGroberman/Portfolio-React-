@@ -1,17 +1,30 @@
 
-import { Link } from 'react-scroll'
+import { Link } from 'react-router-dom'
 //  Link needs to be imported for styled-components to work with it
 import styled from 'styled-components'
 import img from '../../assets/images/nyc_skyline.JPG'
 
+export const Navoffset = styled.section`
+height:150px;
+width: 100%;
+background-color:#333333;
+`
+
 export const NavContainer = styled.nav`
 margin-top: 0;
 width: 100%;
+
 `
 // this is how styled components requires exports of html elements
 
 export const NavTop = styled.section`
 background-color:#1d2022;
+position: fixed;
+height:150px;
+top: 0;
+right: 0;
+left: 0;
+z-index: 1030;
 display: flex;
 flex-direction: column;
 margin: 0;

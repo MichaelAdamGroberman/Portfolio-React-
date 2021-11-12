@@ -5,21 +5,26 @@ import styled from 'styled-components'
 export const Sectioncontainer = styled.section`
 width:100%;
 display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 background-color:#333333 ;
 `
 export const SectionTitle = styled.h1`
-padding-right:40px ;
-padding-left:20px ;
 font-size: 60px;
-width:20%;
-
+align-self: center;
 color:#287D7D;
+
+
 `
 export const SectionContent = styled.section`
 margin-top: 5px;
-border-left: 5px solid #287D7D;
 padding-bottom:5px;
 margin-bottom: 25px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 width:80%;
 
 `
@@ -29,3 +34,4 @@ padding-left: 20px;
 padding-right: 60px;
 color:#287D7D;
 `
+

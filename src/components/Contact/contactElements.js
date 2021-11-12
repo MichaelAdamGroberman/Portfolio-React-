@@ -1,24 +1,25 @@
 import styled from "styled-components";
-export const ContactLinks = styled.section`
+export const ContactForm = styled.form`
 display:flex;
-justify-content:space-around;
+flex-direction:column;
+
+background-color:lightgrey;
 align-items:center;
-height:100%`
+justify-content:center;
+width:500px;
+padding:10px;
+border:solid black 5px;`
 
-export const ContactLink = styled.a`
-background-image: url(${({ background }) => background});
-background-size: cover;
-min-width: 100px;
-min-height: 100px;
-margin-bottom: 30px;
-&:hover{
-    transition: background-color 2s ;
-    box-shadow: inset 0 0 0 100px rgba(125, 234, 236, 0.37);
-    background-color: #f2fdfd;
-    color:#c02222;
-    transition: 0.5 ease-in-out;
-    opacity:90%;
-    cursor:pointer;
-}
+export const Formtitle = styled.h3`
+color:teal`
 
+export const Formdesc = styled.p`
+color:teal`
+export const Formwarn = styled.p`
+color:red`
+
+export const Formbutton = styled.button`
+border: 2px lightblue solid;
+color:teal;
+cursor: pointer;
 `

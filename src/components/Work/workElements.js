@@ -41,6 +41,7 @@ color:#c02222;
 `
 export const ProjectText = styled.p`
 color:#22c0c0;
+font-size: 12px;
 `
 
 export const ProjectLink = styled.a`

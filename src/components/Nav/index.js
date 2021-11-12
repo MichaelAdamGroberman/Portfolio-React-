@@ -1,55 +1,36 @@
 import React from 'react'
-import { NavContainer, NavTop, NavTitle, NavLInks, NavLinka, NavLink, NavBottom, NavDesc, } from './navElements'
+import { NavContainer, Navoffset, NavTop, NavTitle, NavLInks, NavLink, NavLinka, NavBottom, NavDesc, } from './navElements'
 // importing styled components
 import PDF from '../../assets/files/MichaelGroberman_Resume.pdf';
 
 const Nav = () => {
-    return (
+    return (<>
         <NavContainer>
             <NavTop>
                 <NavTitle>Micheal Groberman</NavTitle>
                 <NavLInks>
 
-                    <NavLink
-                    
-                        activeClass="active"
-                        to="About"
-                        // targets component with id of "about"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}>
+                    <NavLink to="/" >
                         About Me
                     </NavLink>
 
-                    <NavLink
-                        activeClass="active"
-                        to="Work"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}>
-                        Work
+                    <NavLink to="/projects" >
+                        Projects
                     </NavLink>
 
-                    <NavLink
-                        activeClass="active"
-                        to="Contact"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}>
+                    <NavLink to="/Contact" >
                         Contact Me
                     </NavLink>
                     <NavLinka href={PDF} target="_blank">Resume</NavLinka>
 
                 </NavLInks>
             </NavTop>
+            <Navoffset />
             <NavBottom>
                 <NavDesc>Full-Stack Developer</NavDesc>
             </NavBottom>
-
         </NavContainer>
+    </>
     )
 }
 
