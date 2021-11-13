@@ -29,6 +29,7 @@ display: flex;
 flex-direction: column;
 margin: 0;
 padding:0;
+padding-bottom: 10px;
 
 `
 
@@ -58,6 +59,10 @@ cursor:pointer;
 }
 
 `
+export const NavLinkActive = styled.p`
+color:white;
+font-weight:bold;`
+
 export const NavLinka = styled.a`
 color: #44a8b8;
 text-decoration: underline;
