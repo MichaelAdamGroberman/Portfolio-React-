@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React-/static/css/main.17306a7c.chunk.css",
+    "main.js": "/Portfolio-React-/static/js/main.ee69bca2.chunk.js",
+    "main.js.map": "/Portfolio-React-/static/js/main.ee69bca2.chunk.js.map",
+    "runtime-main.js": "/Portfolio-React-/static/js/runtime-main.42b51a84.js",
+    "runtime-main.js.map": "/Portfolio-React-/static/js/runtime-main.42b51a84.js.map",
+    "static/js/2.ed4ee1eb.chunk.js": "/Portfolio-React-/static/js/2.ed4ee1eb.chunk.js",
+    "static/js/2.ed4ee1eb.chunk.js.map": "/Portfolio-React-/static/js/2.ed4ee1eb.chunk.js.map",
+    "static/js/3.bb077e27.chunk.js": "/Portfolio-React-/static/js/3.bb077e27.chunk.js",
+    "static/js/3.bb077e27.chunk.js.map": "/Portfolio-React-/static/js/3.bb077e27.chunk.js.map",
+    "index.html": "/Portfolio-React-/index.html",
+    "static/css/main.17306a7c.chunk.css.map": "/Portfolio-React-/static/css/main.17306a7c.chunk.css.map",
+    "static/js/2.ed4ee1eb.chunk.js.LICENSE.txt": "/Portfolio-React-/static/js/2.ed4ee1eb.chunk.js.LICENSE.txt",
+    "static/media/MichaelGroberman_Resume.3c751ac1.pdf": "/Portfolio-React-/static/media/MichaelGroberman_Resume.3c751ac1.pdf",
+    "static/media/PasswordGenerator.811abc77.png": "/Portfolio-React-/static/media/PasswordGenerator.811abc77.png",
+    "static/media/Team.70c22f83.png": "/Portfolio-React-/static/media/Team.70c22f83.png",
+    "static/media/WeatherDash.0f6eaa39.png": "/Portfolio-React-/static/media/WeatherDash.0f6eaa39.png",
+    "static/media/horiseon.5d722caf.png": "/Portfolio-React-/static/media/horiseon.5d722caf.png",
+    "static/media/nyc_skyline.7d43aae6.JPG": "/Portfolio-React-/static/media/nyc_skyline.7d43aae6.JPG",
+    "static/media/pawTime.761fd7ee.PNG": "/Portfolio-React-/static/media/pawTime.761fd7ee.PNG",
+    "static/media/profile.1d2870c9.jpg": "/Portfolio-React-/static/media/profile.1d2870c9.jpg",
+    "static/media/react-js.396536ce.png": "/Portfolio-React-/static/media/react-js.396536ce.png",
+    "static/media/vegitate.e88791d2.png": "/Portfolio-React-/static/media/vegitate.e88791d2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42b51a84.js",
+    "static/js/2.ed4ee1eb.chunk.js",
+    "static/css/main.17306a7c.chunk.css",
+    "static/js/main.ee69bca2.chunk.js"
+  ]
+}
